@@ -1,23 +1,111 @@
 aid: general-intuition
 name: General Intuition
-description: General Intuition is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  General Intuition is a frontier AI lab building large action foundation models
+  that can perceive, predict, and act across space and time in both virtual and
+  physical environments. Spun out of the gaming clip platform Medal, the company
+  trains its spatial-temporal reasoning models on billions of action-labeled
+  gameplay clips - recordings of exactly which buttons a player pressed and when -
+  to teach AI agents how to move through and reason about the world. Its Mira
+  world model powers applications across games, simulation, and robotics. Founded
+  in 2025 and based in New York City, General Intuition has raised $454M total,
+  including a $320M Series A at a $2.3B valuation, and is onboarding first partners
+  to a commercial API ahead of a broader developer release.
 url: https://raw.githubusercontent.com/api-evangelist/general-intuition/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68b73cd966b9c097c35f357b/68e8144ca0bb0c277dd07742_general_intuition_opengraph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Foundation Models
+- World Models
+- Spatial Reasoning
+- Robotics
+- Simulation
+- Gaming
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- name: Website
+  description: General Intuition company homepage - the frontier lab for acting in space and time.
+  url: https://www.generalintuition.com/
+  type: Homepage
+- name: Mira World Model
+  description: General Intuition's Mira world model product page.
+  url: https://www.generalintuition.com/mira
+  type: Product
+- name: Partner Access
+  description: Partner application and commercial API access request form.
+  url: https://partners.generalintuition.com/
+  type: DeveloperPortal
+- name: Request API Access
+  description: Apply for partner / commercial API access ahead of the broader developer release.
+  url: https://partners.generalintuition.com/
+  type: SignUp
+- name: Documentation
+  description: Partner documentation portal (sign-in required).
+  url: https://docs.generalintuition.com/
+  type: Documentation
+- name: Mira Research Blog
+  description: Mira world model research blog and updates.
+  url: https://mira-wm.com/blog-post/
+  type: Blog
+- name: Mira Paper
+  description: Technical paper describing the Mira world model.
+  url: https://mira-wm.com/paper
+  type: Paper
+- name: GitHub Organization
+  description: General Intuition GitHub organization.
+  url: https://github.com/generalintuition
+  type: GitHubOrganization
+- name: Careers
+  description: Open roles at General Intuition and Medal (Ashby).
+  url: https://jobs.ashbyhq.com/generalintuition-medal
+  type: Careers
+- name: LinkedIn
+  description: General Intuition on LinkedIn.
+  url: https://www.linkedin.com/company/generalintuition/
+  type: LinkedIn
+- name: X (Twitter)
+  description: General Intuition on X.
+  url: https://x.com/gen_intuition
+  type: Twitter
+- name: Terms of Service
+  description: General Intuition terms of use.
+  url: https://www.generalintuition.com/terms
+  type: TermsOfService
+- name: Privacy Policy
+  description: General Intuition privacy policy.
+  url: https://www.generalintuition.com/privacy
+  type: PrivacyPolicy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
