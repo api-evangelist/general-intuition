@@ -12,6 +12,17 @@ description: >-
   including a $320M Series A at a $2.3B valuation, and is onboarding first partners
   to a commercial API ahead of a broader developer release.
 url: https://raw.githubusercontent.com/api-evangelist/general-intuition/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
