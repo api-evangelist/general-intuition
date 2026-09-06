@@ -74,6 +74,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/general-intuition-domain-security.yml
+- type: LLMsTxt
+  url: llms/general-intuition-llms.txt
+- type: Website
+  url: https://www.generalintuition.com/
 - name: Website
   description: General Intuition company homepage - the frontier lab for acting in space and time.
   url: https://www.generalintuition.com/
