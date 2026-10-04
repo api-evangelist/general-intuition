@@ -48,7 +48,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - World Models
 - Spatial Reasoning
@@ -67,6 +67,7 @@ tags_raw:
 - Simulation
 - Gaming
 - AI Agents
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
